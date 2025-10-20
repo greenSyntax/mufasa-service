@@ -1,0 +1,82 @@
+# ------------------------------------------------------
+# Node.js / Express API .gitignore
+# ------------------------------------------------------
+
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+
+# Environment variables & secrets
+.env
+.env.*        # e.g., .env.local, .env.development
+*.env
+
+# Logs
+logs/
+*.log
+logs-*.txt
+debug.log
+*.pid
+*.seed
+*.pid.lock
+
+# Runtime data
+pids/
+*.pid
+*.seed
+lib-cov/
+coverage/
+.nyc_output/
+cache/
+tmp/
+temp/
+*.tmp
+
+# Build / output
+dist/
+build/
+out/
+public/
+uploads/
+storage/
+.DS_Store
+Thumbs.db
+
+# OS-specific files
+.DS_Store
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# IDE / editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+*.orig
+
+# Tests
+coverage/
+.jest/
+
+# TypeScript (if used)
+*.tsbuildinfo
+
+# Optional: Docker, if using
+docker-compose.override.yml
+.docker/
+*.tar
+
+# Optional: Logs from nodemon
+*.log.*
+
+# ------------------------------------------------------
+# End of .gitignore
+# ------------------------------------------------------
