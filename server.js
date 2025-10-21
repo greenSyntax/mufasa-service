@@ -24,6 +24,7 @@ mongoose.connect(DB_URL, {
   useUnifiedTopology: true
 }).then(() => console.log('MongoDB connected'))
   .catch(err => {
+    console.log("DB URL:", DB_URL)
     console.error('MongoDB connection error:', err);
     process.exit(1);
   });
